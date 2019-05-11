@@ -4,33 +4,26 @@
 
 /* horizontal navbar */
 
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    }
-  
-  #nav-bar {
-    position: fixed; /* stays at the top of the page*/
-    top: 0;
-    width: 100%;
-    background-color: red;
-    border: 2px solid black;
-  }
+#nav-bar {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed; /* stays at the top of the page*/
+  top: 0;
+  width: 100%;
+  background-color: red;
+  border: 2px solid black;
+}
 
-  li {
-    float: left;
-    color: white;
-  }
+nav a {
+  display: block;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+}
 
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: auto;
-    text-decoration: none;
-  }
-
-  li a:hover {
-    background-color: black;
-  }
+nav a:hover {
+  background-color: black;
+}
