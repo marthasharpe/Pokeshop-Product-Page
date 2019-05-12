@@ -1,24 +1,29 @@
 main {
-  padding-top: 44px;
+  padding-top: 60px;
 }
 
 body {
   display: flex;
   flex-flow: row wrap;
   font-family: 'Spinnaker', sans-serif;
-  margin-top: 60px;
+  text-align: center;
   }
 
+.title {
+  margin: 40px;
+}
+
 #name-brand {
-  font-size: 80px;
+  font-size: 2em;
   font-family: 'Sigmar One', cursive;
 }
+
+/* horizontal navbar */
 
 #header-img {
     height: 40px;
   }
 
-/* horizontal navbar */
 #nav-bar {
   display: flex;
   flex-flow: row wrap;
@@ -34,7 +39,7 @@ body {
 nav a {
   display: block;
   color: white;
-  font-size: 20px;
+  font-size: 1.5em;
   text-align: center;
   text-decoration: none;
 }
