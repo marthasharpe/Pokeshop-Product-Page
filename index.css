@@ -12,6 +12,7 @@ body {
 #name-brand {
   font-size: 2em;
   font-family: 'Sigmar One', cursive;
+  color: red;
 }
 
 /* horizontal navbar */
@@ -32,6 +33,14 @@ body {
   border: 2px solid black;
 }
 
+@media screen and (max-width: 600px) {
+  #nav-bar {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+  }
+}
+
 .nav-link {
   display: flex;
   align-items: center;
@@ -48,23 +57,46 @@ nav a:hover {
 .all-types {
   border: solid 2px black;
   margin: 40px;
-  padding: 40px;
+  padding: 20px;
+}
+
+.intro {
+  padding: 20px 100px 20px 100px;
 }
 
 .types {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
 
+@media screen and (max-width: 600px) {
+  .types {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+  }
 }
 
 .pokemon {
   border: solid 2px black;
   margin: 40px;
-  padding: 40px;
+  padding: 20px;
 }
 
 .type-img {
   height: 180px;
   width: 180px;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+h2, h3 {
+  font-size: 2em;
+}
+
+h4 {
+  font-size: 1.5em; 
 }
