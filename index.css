@@ -100,3 +100,20 @@ h2, h3 {
 h4 {
   font-size: 1.5em; 
 }
+
+footer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  border: solid 2px black;
+  margin: 40px;
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2em;
+  padding: 20px;
+  border: solid 2px black;
+}
