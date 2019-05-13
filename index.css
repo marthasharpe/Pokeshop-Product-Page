@@ -9,10 +9,6 @@ body {
   text-align: center;
   }
 
-.title {
-  margin: 40px;
-}
-
 #name-brand {
   font-size: 2em;
   font-family: 'Sigmar One', cursive;
@@ -36,14 +32,30 @@ body {
   border: 2px solid black;
 }
 
-nav a {
-  display: block;
+.nav-link {
+  display: flex;
+  align-items: center;
   color: white;
   font-size: 1.5em;
-  text-align: center;
   text-decoration: none;
+  height: 40px;
 }
 
 nav a:hover {
   background-color: black;
+}
+
+.types {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.pokemon {
+  border: solid 2px black;
+}
+
+.type-img {
+  height: 180px;
+  width: 180px;
 }
