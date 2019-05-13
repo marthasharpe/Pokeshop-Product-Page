@@ -33,7 +33,7 @@ body {
   border: 2px solid black;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   #nav-bar {
     display: flex;
     flex-flow: column wrap;
@@ -41,13 +41,17 @@ body {
   }
 }
 
+a {
+  text-decoration: none;
+}
+
 .nav-link {
   display: flex;
   align-items: center;
   color: white;
   font-size: 1.5em;
-  text-decoration: none;
   height: 40px;
+  padding: 10px;
 }
 
 nav a:hover {
@@ -66,11 +70,11 @@ nav a:hover {
 
 .types {
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
   justify-content: space-around;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .types {
     display: flex;
     flex-flow: column wrap;
