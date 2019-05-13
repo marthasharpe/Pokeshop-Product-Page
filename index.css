@@ -45,14 +45,23 @@ nav a:hover {
   background-color: black;
 }
 
+.all-types {
+  border: solid 2px black;
+  margin: 40px;
+  padding: 40px;
+}
+
 .types {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+
 }
 
 .pokemon {
   border: solid 2px black;
+  margin: 40px;
+  padding: 40px;
 }
 
 .type-img {
