@@ -17,7 +17,7 @@ body {
 
 /* horizontal navbar */
 
-#header-img {
+.logo {
     height: 40px;
   }
 
@@ -61,11 +61,15 @@ nav a:hover {
 .all-types {
   border: solid 2px black;
   margin: 40px;
-  padding: 20px;
+  padding: 10px;
+  background-color: #ffff0080;
 }
 
 .intro {
-  padding: 20px 100px 20px 100px;
+  padding: 20px;
+  margin: 20px 100px 20px 100px;
+  border: solid 2px black;
+  background-color: white;
 }
 
 .types {
@@ -84,13 +88,16 @@ nav a:hover {
 
 .pokemon {
   border: solid 2px black;
-  margin: 40px;
-  padding: 20px;
+  border-radius: 10%;
+  margin: 10px;
+  padding: 10px;
+  background-color: white;
 }
 
 .type-img {
   height: 180px;
   width: 180px;
+  padding: 10px;
 }
 
 p {
@@ -110,8 +117,9 @@ footer {
   flex-flow: row wrap;
   justify-content: center;
   border: solid 2px black;
+  background-color: #ffff0080;
   margin: 40px;
-  padding: 20px;
+  padding: 10px;
 }
 
 form {
@@ -120,4 +128,5 @@ form {
   font-size: 1.2em;
   padding: 20px;
   border: solid 2px black;
+  background-color: white;
 }
